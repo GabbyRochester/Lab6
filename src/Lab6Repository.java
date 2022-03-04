@@ -13,7 +13,7 @@ public class Lab6Repository {
         System.out.println("Enter second number: ");
         secondNumber = scner.nextInt();
 
-        int result = firstNumber += secondNumber;
+        int result = firstNumber -= secondNumber;
 
         System.out.println(result);
     }
